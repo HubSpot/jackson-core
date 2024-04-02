@@ -3,7 +3,7 @@ buildpack:
 
 env:
   SKIP_VERSION_OVERRIDE_ON_BRANCH: 2.12-hubspot
-#  MAVEN_ARGS: -DskipTests -Drat.skip=true -Dspotless.check.skip=true
+  MAVEN_DEPLOY_ARGS: -DskipNexusStagingDeployMojo=true
 
 
 stepActivation:
