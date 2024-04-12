@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 
 /**
  * This base class implements part of API that a JSON generator exposes
- * to applications, adds shared internal methods that sub-classes
+ * to applications, adds shared internal methods that sub-classes that
  * can use and adds some abstract methods sub-classes must implement.
  */
 public abstract class GeneratorBase extends JsonGenerator
