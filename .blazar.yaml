@@ -1,0 +1,11 @@
+buildpack:
+  name: Blazar-Buildpack-Java
+
+env:
+  SKIP_VERSION_OVERRIDE_ON_BRANCH: 2.15-hubspot
+  MAVEN_DEPLOY_ARGS: -DskipNexusStagingDeployMojo=true
+
+
+stepActivation:
+  notify:
+    branches: [2.15-hubspot]
